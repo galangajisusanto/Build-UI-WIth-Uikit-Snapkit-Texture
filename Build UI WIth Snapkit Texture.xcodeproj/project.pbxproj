@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A59CED2528466F8100AD8488 /* UIkitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59CED2428466F8100AD8488 /* UIkitViewController.swift */; };
+		A5DB14302847058900855193 /* ChangeDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DB142F2847058900855193 /* ChangeDataCell.swift */; };
+		A5DB143328470C2D00855193 /* ChangeDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DB143228470C2D00855193 /* ChangeDataModel.swift */; };
 		A5EE965928466EC60098D107 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EE965828466EC60098D107 /* AppDelegate.swift */; };
 		A5EE965B28466EC60098D107 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EE965A28466EC60098D107 /* SceneDelegate.swift */; };
-		A5EE965D28466EC60098D107 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EE965C28466EC60098D107 /* ViewController.swift */; };
-		A5EE966028466EC60098D107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5EE965E28466EC60098D107 /* Main.storyboard */; };
 		A5EE966228466EC70098D107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5EE966128466EC70098D107 /* Assets.xcassets */; };
 		A5EE966528466EC70098D107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5EE966328466EC70098D107 /* LaunchScreen.storyboard */; };
+		DA192766BFA9D4F9582A3D82 /* Pods_Build_UI_WIth_Snapkit_Texture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A6E528CDFAA2D89311DEEC /* Pods_Build_UI_WIth_Snapkit_Texture.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A09546AF31257661E7A5F32 /* Pods-Build UI WIth Snapkit Texture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Build UI WIth Snapkit Texture.release.xcconfig"; path = "Target Support Files/Pods-Build UI WIth Snapkit Texture/Pods-Build UI WIth Snapkit Texture.release.xcconfig"; sourceTree = "<group>"; };
+		24A6E528CDFAA2D89311DEEC /* Pods_Build_UI_WIth_Snapkit_Texture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Build_UI_WIth_Snapkit_Texture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A59CED2428466F8100AD8488 /* UIkitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIkitViewController.swift; sourceTree = "<group>"; };
+		A5DB142F2847058900855193 /* ChangeDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeDataCell.swift; sourceTree = "<group>"; };
+		A5DB143228470C2D00855193 /* ChangeDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeDataModel.swift; sourceTree = "<group>"; };
 		A5EE965528466EC60098D107 /* Build UI WIth Snapkit Texture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Build UI WIth Snapkit Texture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5EE965828466EC60098D107 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5EE965A28466EC60098D107 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A5EE965C28466EC60098D107 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A5EE965F28466EC60098D107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5EE966128466EC70098D107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5EE966428466EC70098D107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5EE966628466EC70098D107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B352AF523F0F81A8968AA407 /* Pods-Build UI WIth Snapkit Texture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Build UI WIth Snapkit Texture.debug.xcconfig"; path = "Target Support Files/Pods-Build UI WIth Snapkit Texture/Pods-Build UI WIth Snapkit Texture.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA192766BFA9D4F9582A3D82 /* Pods_Build_UI_WIth_Snapkit_Texture.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52E86AF708A9DD0AB80F468A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24A6E528CDFAA2D89311DEEC /* Pods_Build_UI_WIth_Snapkit_Texture.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A59CED2328466F6800AD8488 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				A59CED2428466F8100AD8488 /* UIkitViewController.swift */,
+				A5DB142F2847058900855193 /* ChangeDataCell.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		A5DB143128470C1600855193 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A5DB143228470C2D00855193 /* ChangeDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		A5EE964C28466EC60098D107 = {
 			isa = PBXGroup;
 			children = (
 				A5EE965728466EC60098D107 /* Build UI WIth Snapkit Texture */,
 				A5EE965628466EC60098D107 /* Products */,
+				D0BE8BE38A2F7D537C08FC9D /* Pods */,
+				52E86AF708A9DD0AB80F468A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +90,24 @@
 		A5EE965728466EC60098D107 /* Build UI WIth Snapkit Texture */ = {
 			isa = PBXGroup;
 			children = (
+				A5DB143128470C1600855193 /* Model */,
+				A59CED2328466F6800AD8488 /* UIKit */,
 				A5EE965828466EC60098D107 /* AppDelegate.swift */,
 				A5EE965A28466EC60098D107 /* SceneDelegate.swift */,
-				A5EE965C28466EC60098D107 /* ViewController.swift */,
-				A5EE965E28466EC60098D107 /* Main.storyboard */,
 				A5EE966128466EC70098D107 /* Assets.xcassets */,
 				A5EE966328466EC70098D107 /* LaunchScreen.storyboard */,
 				A5EE966628466EC70098D107 /* Info.plist */,
 			);
 			path = "Build UI WIth Snapkit Texture";
+			sourceTree = "<group>";
+		};
+		D0BE8BE38A2F7D537C08FC9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B352AF523F0F81A8968AA407 /* Pods-Build UI WIth Snapkit Texture.debug.xcconfig */,
+				1A09546AF31257661E7A5F32 /* Pods-Build UI WIth Snapkit Texture.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +117,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5EE966928466EC70098D107 /* Build configuration list for PBXNativeTarget "Build UI WIth Snapkit Texture" */;
 			buildPhases = (
+				51388EEE5613F64EA4ECF06F /* [CP] Check Pods Manifest.lock */,
 				A5EE965128466EC60098D107 /* Sources */,
 				A5EE965228466EC60098D107 /* Frameworks */,
 				A5EE965328466EC60098D107 /* Resources */,
+				5C4B498BD7D7D7AA55E5936C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +172,69 @@
 			files = (
 				A5EE966528466EC70098D107 /* LaunchScreen.storyboard in Resources */,
 				A5EE966228466EC70098D107 /* Assets.xcassets in Resources */,
-				A5EE966028466EC60098D107 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51388EEE5613F64EA4ECF06F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Build UI WIth Snapkit Texture-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C4B498BD7D7D7AA55E5936C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Build UI WIth Snapkit Texture/Pods-Build UI WIth Snapkit Texture-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Build UI WIth Snapkit Texture/Pods-Build UI WIth Snapkit Texture-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Build UI WIth Snapkit Texture/Pods-Build UI WIth Snapkit Texture-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A5EE965128466EC60098D107 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5EE965D28466EC60098D107 /* ViewController.swift in Sources */,
+				A59CED2528466F8100AD8488 /* UIkitViewController.swift in Sources */,
 				A5EE965928466EC60098D107 /* AppDelegate.swift in Sources */,
 				A5EE965B28466EC60098D107 /* SceneDelegate.swift in Sources */,
+				A5DB143328470C2D00855193 /* ChangeDataModel.swift in Sources */,
+				A5DB14302847058900855193 /* ChangeDataCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A5EE965E28466EC60098D107 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A5EE965F28466EC60098D107 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A5EE966328466EC70098D107 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +362,7 @@
 		};
 		A5EE966A28466EC70098D107 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B352AF523F0F81A8968AA407 /* Pods-Build UI WIth Snapkit Texture.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,7 +372,7 @@
 				INFOPLIST_FILE = "Build UI WIth Snapkit Texture/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,6 +390,7 @@
 		};
 		A5EE966B28466EC70098D107 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A09546AF31257661E7A5F32 /* Pods-Build UI WIth Snapkit Texture.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,7 +400,7 @@
 				INFOPLIST_FILE = "Build UI WIth Snapkit Texture/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
