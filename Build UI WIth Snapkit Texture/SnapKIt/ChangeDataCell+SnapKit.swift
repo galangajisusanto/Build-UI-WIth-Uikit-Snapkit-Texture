@@ -1,13 +1,14 @@
 //
-//  ChangeDataCell.swift
+//  ChangeDataCell+SnapKit.swift
 //  Build UI WIth Snapkit Texture
 //
 //  Created by MEKARI on 01/06/22.
 //
 
 import UIKit
+import SnapKit
 
-class ChangeDataCell: UITableViewCell {
+class ChangeDataCellWithSnapKit: UITableViewCell {
     
     private lazy var titleLabel : UILabel = {
         let lbl = UILabel()
@@ -65,35 +66,30 @@ class ChangeDataCell: UITableViewCell {
     }
     
     private func setupContraints() {
-        detailButton.translatesAutoresizingMaskIntoConstraints = false
-        NSLayoutConstraint.activate([
-            detailButton.centerYAnchor.constraint(equalTo: centerYAnchor),
-            detailButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -20),
-            detailButton.heightAnchor.constraint(equalToConstant: 40),
-            detailButton.widthAnchor.constraint(equalToConstant: 100)
-        ])
+        detailButton.snp.makeConstraints { make in
+            make.centerY.equalToSuperview()
+            make.trailing.equalToSuperview().inset(20)
+            make.height.equalTo(40)
+            make .width.equalTo(100)
+        }
         
-        titleLabel.translatesAutoresizingMaskIntoConstraints = false
-        NSLayoutConstraint.activate([
-            titleLabel.topAnchor.constraint(equalTo: topAnchor, constant: 20),
-            titleLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20),
-            titleLabel.trailingAnchor.constraint(equalTo: detailButton.leadingAnchor, constant: -8)
-        ])
+        titleLabel.snp.makeConstraints { make in
+            make.top.leading.equalToSuperview().inset(20)
+            make.trailing.equalTo(detailButton.snp.leading).offset(8)
+        }
         
-        changesLabel.translatesAutoresizingMaskIntoConstraints = false
-        NSLayoutConstraint.activate([
-            changesLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 8),
-            changesLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant:20),
-            changesLabel.trailingAnchor.constraint(equalTo: detailButton.leadingAnchor, constant: -8)
-        ])
+        changesLabel.snp.makeConstraints { make in
+            make.top.equalTo(titleLabel.snp.bottom).offset(8)
+            make.leading.equalToSuperview().offset(20)
+            make.trailing.equalTo(detailButton.snp.leading).offset(8)
+        }
         
-        statusLabel.translatesAutoresizingMaskIntoConstraints = false
-        NSLayoutConstraint.activate([
-            statusLabel.topAnchor.constraint(equalTo: changesLabel.bottomAnchor, constant: 8),
-            statusLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant:20),
-            statusLabel.trailingAnchor.constraint(equalTo: detailButton.leadingAnchor, constant: -8),
-            statusLabel.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -20)
-        ])
+        statusLabel.snp.makeConstraints { make in
+            make.leading.bottom.equalToSuperview().inset(20)
+            make.top.equalTo(changesLabel.snp.bottom).offset(8)
+            make.trailing.equalTo(detailButton.snp.leading).offset(8)
+        }
+        
     }
     
     required init?(coder: NSCoder) {

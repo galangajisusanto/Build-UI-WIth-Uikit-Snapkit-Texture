@@ -32,7 +32,7 @@ class UIKitViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
-        navigationController?.navigationBar.topItem?.title = "Change Data"
+        navigationController?.navigationBar.topItem?.title = "UIKit Change Data"
         setupContraints()
         setupTable()
     }

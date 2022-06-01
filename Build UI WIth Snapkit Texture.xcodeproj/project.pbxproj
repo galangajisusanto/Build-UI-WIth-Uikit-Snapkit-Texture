@@ -10,6 +10,12 @@
 		A59CED2528466F8100AD8488 /* UIkitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59CED2428466F8100AD8488 /* UIkitViewController.swift */; };
 		A5DB14302847058900855193 /* ChangeDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DB142F2847058900855193 /* ChangeDataCell.swift */; };
 		A5DB143328470C2D00855193 /* ChangeDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DB143228470C2D00855193 /* ChangeDataModel.swift */; };
+		A5DB14362847124700855193 /* SnapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DB14352847124700855193 /* SnapKitViewController.swift */; };
+		A5DB1438284715DB00855193 /* ChangeDataCell+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DB1437284715DB00855193 /* ChangeDataCell+SnapKit.swift */; };
+		A5DB143B28471A2F00855193 /* TextureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DB143A28471A2F00855193 /* TextureViewController.swift */; };
+		A5DB143E28472C3300855193 /* ChangeTableNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DB143D28472C3300855193 /* ChangeTableNode.swift */; };
+		A5DB144028472FF800855193 /* ChangeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DB143F28472FF800855193 /* ChangeNode.swift */; };
+		A5DB1444284746F100855193 /* UIViewExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DB1443284746F100855193 /* UIViewExtenstion.swift */; };
 		A5EE965928466EC60098D107 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EE965828466EC60098D107 /* AppDelegate.swift */; };
 		A5EE965B28466EC60098D107 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EE965A28466EC60098D107 /* SceneDelegate.swift */; };
 		A5EE966228466EC70098D107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5EE966128466EC70098D107 /* Assets.xcassets */; };
@@ -23,6 +29,12 @@
 		A59CED2428466F8100AD8488 /* UIkitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIkitViewController.swift; sourceTree = "<group>"; };
 		A5DB142F2847058900855193 /* ChangeDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeDataCell.swift; sourceTree = "<group>"; };
 		A5DB143228470C2D00855193 /* ChangeDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeDataModel.swift; sourceTree = "<group>"; };
+		A5DB14352847124700855193 /* SnapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitViewController.swift; sourceTree = "<group>"; };
+		A5DB1437284715DB00855193 /* ChangeDataCell+SnapKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChangeDataCell+SnapKit.swift"; sourceTree = "<group>"; };
+		A5DB143A28471A2F00855193 /* TextureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureViewController.swift; sourceTree = "<group>"; };
+		A5DB143D28472C3300855193 /* ChangeTableNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeTableNode.swift; sourceTree = "<group>"; };
+		A5DB143F28472FF800855193 /* ChangeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeNode.swift; sourceTree = "<group>"; };
+		A5DB1443284746F100855193 /* UIViewExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtenstion.swift; sourceTree = "<group>"; };
 		A5EE965528466EC60098D107 /* Build UI WIth Snapkit Texture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Build UI WIth Snapkit Texture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5EE965828466EC60098D107 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5EE965A28466EC60098D107 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +81,41 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		A5DB14342847121600855193 /* SnapKIt */ = {
+			isa = PBXGroup;
+			children = (
+				A5DB14352847124700855193 /* SnapKitViewController.swift */,
+				A5DB1437284715DB00855193 /* ChangeDataCell+SnapKit.swift */,
+			);
+			path = SnapKIt;
+			sourceTree = "<group>";
+		};
+		A5DB1439284719FE00855193 /* Texture */ = {
+			isa = PBXGroup;
+			children = (
+				A5DB144128472FFC00855193 /* Components */,
+				A5DB143A28471A2F00855193 /* TextureViewController.swift */,
+			);
+			path = Texture;
+			sourceTree = "<group>";
+		};
+		A5DB144128472FFC00855193 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A5DB143D28472C3300855193 /* ChangeTableNode.swift */,
+				A5DB143F28472FF800855193 /* ChangeNode.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A5DB1442284746DF00855193 /* Extenstion */ = {
+			isa = PBXGroup;
+			children = (
+				A5DB1443284746F100855193 /* UIViewExtenstion.swift */,
+			);
+			path = Extenstion;
+			sourceTree = "<group>";
+		};
 		A5EE964C28466EC60098D107 = {
 			isa = PBXGroup;
 			children = (
@@ -90,7 +137,10 @@
 		A5EE965728466EC60098D107 /* Build UI WIth Snapkit Texture */ = {
 			isa = PBXGroup;
 			children = (
+				A5DB1442284746DF00855193 /* Extenstion */,
 				A5DB143128470C1600855193 /* Model */,
+				A5DB1439284719FE00855193 /* Texture */,
+				A5DB14342847121600855193 /* SnapKIt */,
 				A59CED2328466F6800AD8488 /* UIKit */,
 				A5EE965828466EC60098D107 /* AppDelegate.swift */,
 				A5EE965A28466EC60098D107 /* SceneDelegate.swift */,
@@ -225,9 +275,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A59CED2528466F8100AD8488 /* UIkitViewController.swift in Sources */,
+				A5DB144028472FF800855193 /* ChangeNode.swift in Sources */,
 				A5EE965928466EC60098D107 /* AppDelegate.swift in Sources */,
+				A5DB1444284746F100855193 /* UIViewExtenstion.swift in Sources */,
 				A5EE965B28466EC60098D107 /* SceneDelegate.swift in Sources */,
+				A5DB1438284715DB00855193 /* ChangeDataCell+SnapKit.swift in Sources */,
+				A5DB14362847124700855193 /* SnapKitViewController.swift in Sources */,
 				A5DB143328470C2D00855193 /* ChangeDataModel.swift in Sources */,
+				A5DB143B28471A2F00855193 /* TextureViewController.swift in Sources */,
+				A5DB143E28472C3300855193 /* ChangeTableNode.swift in Sources */,
 				A5DB14302847058900855193 /* ChangeDataCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
