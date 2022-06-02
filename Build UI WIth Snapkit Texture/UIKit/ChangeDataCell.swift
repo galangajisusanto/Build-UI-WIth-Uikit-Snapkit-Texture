@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 class ChangeDataCell: UITableViewCell {
     
@@ -101,3 +102,18 @@ class ChangeDataCell: UITableViewCell {
     }
     
 }
+
+struct ChangeDataCell_Previews: PreviewProvider {
+    static var previews: some View {
+        ViewPreview {
+            let cell = ChangeDataCell()
+            cell.changeDataModel = ChangeDataModel(title: "Test title", status: "Pending", changeTo: "Change to")
+            return cell
+            
+        }
+        .frame(height: 120)
+        
+        
+    }
+}
+

@@ -6,6 +6,7 @@
 //
 
 import AsyncDisplayKit
+import SwiftUI
 
 class TextureViewController: ASDKViewController<ASDisplayNode> {
     
@@ -67,4 +68,12 @@ class TextureViewController: ASDKViewController<ASDisplayNode> {
         fatalError("init(coder:) has not been implemented")
     }
     
+}
+
+struct TextureViewController_Previews: PreviewProvider {
+    static var previews: some View {
+        ViewControllerPreview {
+            TextureViewController()
+        }
+    }
 }

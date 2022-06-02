@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 class UIKitViewController: UIViewController {
     
@@ -72,6 +73,14 @@ extension UIKitViewController: UITableViewDelegate, UITableViewDataSource {
         cell.changeDataModel = changesData[indexPath.row]
         cell.selectionStyle = .none
         return cell
+    }
+}
+
+struct UIKitViewController_Previews: PreviewProvider {
+    static var previews: some View {
+        ViewControllerPreview {
+            UIKitViewController()
+        }
     }
 }
 

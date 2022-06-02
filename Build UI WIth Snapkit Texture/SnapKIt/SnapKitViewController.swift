@@ -7,6 +7,7 @@
 
 import UIKit
 import SnapKit
+import SwiftUI
 
 class SnapKitViewController: UIViewController {
     
@@ -69,6 +70,14 @@ extension SnapKitViewController: UITableViewDelegate, UITableViewDataSource {
         cell.changeDataModel = changesData[indexPath.row]
         cell.selectionStyle = .none
         return cell
+    }
+}
+
+struct SnapKitViewController_Previews: PreviewProvider {
+    static var previews: some View {
+        ViewControllerPreview {
+            SnapKitViewController()
+        }
     }
 }
 
